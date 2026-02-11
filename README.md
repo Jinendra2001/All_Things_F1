@@ -33,7 +33,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 python -m pip install -r requirements.txt
 
 # Running the Application
-export GOOGLE_GEMINI_API_KEY="your-api-key-here"  # Windows: set GOOGLE_GEMINI_API_KEY=your-api-key-here
+ In your .env file put GOOGLE_GEMINI_API_KEY="your-api-key-here", GOOGLE_GEMINI_API_KEY=your-api-key-here
 Start the FastAPI server:
 python main.py
 # or
