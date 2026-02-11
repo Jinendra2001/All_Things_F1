@@ -22,7 +22,7 @@ An intelligent, multi-agent system that provides real-time and historical Formul
 ### 2. Installation
 ```bash
 # Clone the repository
-git clone [https://github.com/your-username/f1_ops_assistant.git](https://github.com/your-username/f1_ops_assistant.git)
+git clone [https://github.com/Jinendra2001/All_Things_F1.git)
 cd f1_ops_assistant
 
 # Create a virtual environment
@@ -31,4 +31,14 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # Install dependencies
 python -m pip install -r requirements.txt
+
+# Running the Application
+export GOOGLE_GEMINI_API_KEY="your-api-key-here"  # Windows: set GOOGLE_GEMINI_API_KEY=your-api-key-here
+Start the FastAPI server:
+python main.py
+# or
+uvicorn main:app --reload
+The API will be available at http://localhost:8000
+
+
 
